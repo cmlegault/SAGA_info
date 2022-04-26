@@ -6,7 +6,7 @@ This site is to help people interested in using the Survey Analysis Graphical As
 
 The SAGA program was developed by Al Seaver and has the same look and feel of the NOAA Fisheries Toolbox programs. It has a graphical user interface written in Visual Basic that requires an ITD HelpDesk ticket to be installed. The zip file for installation is available at \\net.nefsc.noaa.gov\home0\pdy\pub\SAGA_for_Windows10 called SAGAV6.12_64-Bit.zip. There is also a file called SAGA Oracle Dlls.zip in this directory. Once you have SAGA installed, you should unzip the files in this second zip file and put them in the same directory as your SAGA.exe file. These dll files were developed by Mark Beauregard and allow SAGA to connect to the Oracle databases.  
 
-**Please note**, the Population Dynamics Branch has made an agreement with ITD that SAGA can be installed on our laptops, but that ITD will not provide support to get SAGA to work. So please do not submit ITD HelpDesk tickets if you cannot get SAGA to work. Instead, please follow the directions here and/or work with other members of the Population Dynamics Branch to get your SAGA prgoram working.  
+**Please note**, the Population Dynamics Branch has made an agreement with ITD that SAGA can be installed on our laptops, but that ITD will not provide support to get SAGA to work. So please do not submit ITD HelpDesk tickets if you cannot get SAGA to work. Instead, please follow the directions here and/or work with other members of the Population Dynamics Branch to get your SAGA program working. If needed, someone with a working version of SAGA can pull the data from Oracle and then you can run the Survan portion yourself (see first screen of SAGA below).  
 
 ## About SAGA 
 
@@ -16,3 +16,4 @@ SAGA collects data from Oracle using sql commands and then computes stratified m
 
 Since SAGA pulls data directly from NEFSC Oracle servers, users must have the ability to connect to Oracle. This can be checked through PuTTY, SQLdeveloper, Toad, or other programs that allow selecting data from Oracle tables. Users will need to have a tnsnames.ora file on their computer. Please use one of these other programs to have ITD help you get connected to Oracle databases, not SAGA. If you can connect to Oracle using these other programs, then you should be able to use SAGA as well, you just may need to copy the dll files noted above.
 
+<img src="SAGA_first_screen.jpg" width="600">
